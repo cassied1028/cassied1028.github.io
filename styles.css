@@ -78,7 +78,8 @@ nav a:hover{
 
 /* Section styles */
 section {
-    padding: 20px;
+    padding: 35px 5px; /* Adjust the top padding value as needed */
+
 }
 
 section h2 {
@@ -96,6 +97,7 @@ section p {
     background: #f4f4f4;
     padding: 20px;
     margin-bottom: 20px;
+    border-radius: 25px;
 }
 
 .project h3 {
@@ -226,6 +228,15 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+/* Awards Styles */
+
+.award {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    border-radius: 25px;
+ }
+ 
 
 /* Resume Styles */
 .resume-link-container {
