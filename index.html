@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Professional Personal Website">
+    <title>Cassie Davidson</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<style>
+    .indented-paragraph {
+        text-indent: 35px; /* Adjust the value as needed */
+    }
+</style>
+<body>
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <!-- <div class="logo-container">
+            <img src="thayer.png" alt="Icon 1" class="logo">
+            <img src="skidmore.png" alt="Icon 2" class="logo">
+        </div> -->
+
+        <div class="header-content">
+            <h1>Cassie Davidson</h1>
+            <h2>Student Athlete, Skidmore College '25</h2>
+            <p>Computer Science Major, Biology Minor</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p >Hello, I'm Cassie! As I begin junior year of college, I'm pursuing a dual passion as a 
+            Computer Science Major and Biology Minor at Skidmore College. 
+            My interest of programming began during high school, and my passion for it was strong enough to 
+            lead me to further exploration in college. 
+            <br><br>I've actively engaged in computer science research both during the school year as well as over 
+            the summer. These experiences have led me to participate in and present at poster presentations. 
+            Through this, I have not only honed my collaboration skills but have also improved individual 
+            research skills.   
+            <br><br>Beyond academics, I'm also a dedicated student-athlete, contributing my skills to the women's 
+            basketball team here at Skidmore. Being a part of this team has helped me maintain structure with
+             my work. Good communication skills have played a vital role in creating a cohesive and 
+             successful team dynamic both on the court and in the class.
+        </p>
+   
+        <h3>Gallery</h3>
+        <div class="image-scroll-container">
+            <div class="image-scroll-content">
+                
+                <div class ="image-container">
+                    <img src="poster3.jpeg" alt="gallery 1" class = "image">
+                    <div class = "overlay">
+                        <div class = "galleryText">2023 Faculty Student Summer Research Presentation</div>
+                    </div>
+                </div>
+
+                <div class ="image-container">
+                    <img src="image1.JPEG" alt="gallery 2" class = "image">
+                    <div class = "overlay">
+                        <div class = "galleryText">On the court</div>
+                    </div>
+                </div>
+
+                <div class ="image-container">
+                    <img src="poster1.jpeg" alt="gallery 3" class = "image">
+                    <div class = "overlay">
+                        <div class = "galleryText">2022 Academic Festival Presentation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        <h3>Languages</h3>
+        <p>Basic, C, C++, HTML, Java, JavaScript, Perl, Python, React Native, Swift</p>
+
+    </section>
+
+    <!-- Experience Section -->
+    <section id="portfolio">
+        <h2>Experience & Projects</h2>
+        <!-- Prjects & details -->
+        <div class="project">
+            <h3>Computer Science Peer Academic Coach, Skidmore College, Brenda Pashley</h3>
+            <p>Languages: python, Java</p>
+            <p>Fall 2022-present</p>
+            <button onclick = "ToggleFunc('LearnMore5')" class = "button">Learn More</button>
+            <div id = "LearnMore5" class = "hidden">
+                <p>
+                • Participated in training classes to improve tutoring practices and learn new tutoring techniques<br>
+                • Worked with variety of level of students to increase their understanding with computer science concepts<br>
+                • Administered feedback to students using positive reinforcement techniques to encourage and build confidence<br>
+                 </p>
+                <div class="pdf-link-container">
+                    <a href="https://www.skidmore.edu/academic_services/pac/index.php">Visit PAC Website</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Computer Science Teaching Assistant, Skidmore College, Nelson Dellis</h3>
+            <p>Language: python</p>
+            <p>Fall 2022-Spring 2023</p>
+            <button onclick = "ToggleFunc('LearnMore4')" class = "button">Learn More</button>
+            <div id = "LearnMore4" class = "hidden">
+                <p>
+                • Assisted lead instructor during Intro to Computer Science(CS106) lab blocks in leading discussions 
+                and providing hands-on programming support to students.
+                • Effectively assisted an introductory computer science course, promoting student 
+                engagement, and facilitating a supportive learning environment.<br>
+                • Administered feedback to students using positive reinforcement techniques to encourage and build confidence<br>
+                 </p>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>10 Week Summer Research, Skidmore College, Dr Aarathi Prasad</h3>
+            <p>Languages: React Native, HTML, JavaScript</p>
+            <p>Summer 2023</p>
+            <!-- <a href="#" class="toggle-button">Learn More</a> -->
+            <button onclick = "ToggleFunc('LearnMore3')" class = "button">Learn More</button>
+            <div id = "LearnMore3" class = "hidden">
+               <p>(May-August 2023)</p>
+                <p>
+                    • Completed 10 week long collaborative research to learn about children’s understanding of their safety online <br>
+                    • First 5 weeks spent researching about children's understanding of online safety and laws put in place to help them 
+                    stay safe<br>
+                    • Last 5 weeks spent brainstorming app ideas, learning React Native, and building and designing the app<br>
+                    • Learned React Native, HTML, and JavaScript to design and build a social media app dedicated to young children
+                    where they can safely interact with peers while also being educated about the importance of privacy<br>
+                    • Presented at a poster presentation<br>
+                </p>
+                <div class = "pdf-link-container">
+                    <a href="poster2.pdf" target="_blank">Show Poster</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Semester Research, Skidmore College, Dr Aarathi Prasad</h3>
+            <p>Language: LaTeX</p>
+            <p>Fall 2022</p>
+            <button onclick = "ToggleFunc('LearnMore2')" class = "button">Learn More</button>
+            <div id = "LearnMore2" class = "hidden">
+                <p>(September-December 2022)</p>
+                <p>
+                    • Completed semester-long research to understand people’s understanding and opinions on genetic testing as well
+                    as the possible beneficial and malicious uses of genetic testing.<br>
+                    • Read academic articles and wrote a research paper based on findings<br>
+                </p>
+                <div class="pdf-link-container">
+                    <a href="GeneticTestingPaper.pdf" target="_blank">Show Paper</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Assistant Researcher, Skidmore College, Dr Aarathi Prasad</h3>
+            <p>Languages: Python, Swift</p>
+            <p>Spring 2022</p>
+            <button onclick = "ToggleFunc('LearnMore1')" class = "button">Learn More</button>
+            <div id = "LearnMore1" class = "hidden">
+                <p>(March-May 2022)</p>
+                <p>
+                    • Assisted in a semester-long research project on the relationship between people and their phone use<br>
+                    • Conducted a small-scale user study using Qualtrics Survey I created<br>
+                    • Summarized results using python to create graphs from csv files<br>
+                    • Presented a poster presentation based on five participants testing the usage and efficiency of an iPhone app<br>
+                </p>
+                <div class = "pdf-link-container">
+                    <a href="poster1.pdf" target="_blank">Show Poster</a>
+                </div>
+            </div>
+        </div>
+        <!-- Add more project entries as needed -->
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Last updated 8/11/2023</p>
+        <div class="resume-link-container">
+            <a href="CassieResume.pdf" target="_blank">Open Resume</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Reach out to me via email or LinkedIn!</p>
+        <a href="mailto:cassied1028@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/cassandra-davidson1028"><i class="fab fa-linkedin"></i></a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Cassie Davidson. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        function ToggleFunc(id) {
+            var x = document.getElementById(id);
+            console.log(id);
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    
+</body>
+</html>
