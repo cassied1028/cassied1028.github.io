@@ -158,15 +158,39 @@ footer {
     padding: 10px;
 }
 
-/* Media Queries for responsiveness
-@media(max-width: 768px) {
-    header h1 {
-        font-size: 2em;
-    }
-} */
+footer p {
+    font-size: 0.8em; /* Adjust the font size as needed */
+}
+
+.divider {
+    display: inline-block;
+    border: none;
+    border-top: 1px solid #fff;
+    width: 10px;
+    height: 1px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.left-divider {
+    width: 500px; /* Adjust the value as needed */
+}
+
+.right-divider {
+    width: 500px; /* Adjust the value as needed */
+}
+
 #contact a {
     font-size: 2em; 
-    margin-right: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #F2F5F8; /* Set the color to white */
+    text-decoration: none; /* Remove the default text underline */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+#contact a:hover {
+    color: #666; /* Change the color on hover */
 }
 /* Styles for the scrollable image container */
 
