@@ -27,7 +27,7 @@
             </div>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="#about">About Me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#portfolio">Experience</a></li>
                 <li><a href="#awards">Awards</a></li>
                 <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -41,7 +41,7 @@
             <img src="thayer.png" alt="Icon 1" class="logo">
             <img src="skidmore.png" alt="Icon 2" class="logo">
         </div> -->
-        <div class="header-content">
+        <div class="header-content"  id="about">
             <h1>Cassie Davidson</h1>
             <h2>Student Athlete, Skidmore College '25</h2>
             <p>Computer Science Major, Biology Minor</p>
@@ -49,23 +49,16 @@
     </header>
 
     <!-- About Me Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p >Hello, I'm Cassie! As I begin junior year of college, I'm pursuing a dual passion as a 
-            Computer Science Major and Biology Minor at Skidmore College. 
+    <section>
+        <!-- <h2>About Me</h2> -->
+        <p class="about-p">Hello, I'm Cassie! I am from Easton, MA. As I begin junior year of college, I'm pursuing a
+             dual passion as a Computer Science Major and Biology Minor at Skidmore College. 
             My interest of programming began during high school, and my passion for it was strong enough to 
-            lead me to further exploration in college. 
-            <br><br>I've actively engaged in computer science research both during the school year as well as over 
-            the summer. These experiences have led me to participate in and present at poster presentations. 
-            Through this, I have not only honed my collaboration skills but have also improved individual 
-            research skills.   
-            <br><br>Beyond academics, I'm also a dedicated student-athlete, contributing my skills to the women's 
-            basketball team here at Skidmore. Being a part of this team has helped me maintain structure with
-             my work. Good communication skills have played a vital role in creating a cohesive and 
-             successful team dynamic both on the court and in the class.
+            lead me to further exploration in college. Beyond academics, I'm also a dedicated student-athlete, contributing my skills to the women's 
+            basketball team here at Skidmore. Continue scrolling to learn more about me!
         </p>
    
-        <h3>Gallery</h3>
+        <!-- <h3>Gallery</h3> -->
         <div class="image-scroll-container">
             <div class="image-scroll-content">
                 
@@ -91,16 +84,15 @@
                 </div>
             </div>
         </div>
-        
-        <br>
-        <h3>Languages</h3>
-        <p>Basic, C, C++, HTML, Java, JavaScript, Perl, Python, React Native, Swift</p>
 
     </section>
 
     <!-- Experience Section -->
     <section id="portfolio">
         <h2>Experience & Projects</h2>
+        <br>
+        <h3>Languages</h3>
+        <p>Basic, C, C++, HTML, Java, JavaScript, Perl, Python, React Native, Swift</p>
         <!-- Prjects & details -->
         <div class="project">
             <h3>Computer Science Peer Academic Coach, Skidmore College, Brenda Pashley</h3>
@@ -120,22 +112,6 @@
             </div>
         </div>
 
-        <div class="project">
-            <h3>Computer Science Teaching Assistant, Skidmore College, Nelson Dellis</h3>
-            <p>Language: python</p>
-            <p>Fall 2022-Spring 2023</p>
-            <button onclick = "ToggleFunc('LearnMore4')" class = "button">Learn More</button>
-            <div id = "LearnMore4" class = "hidden">
-                <p>(September-December 2023 & January-May 2023)</p>
-                <p>
-                • Assisted lead instructor during Intro to Computer Science(CS106) lab blocks in leading discussions 
-                and providing hands-on programming support to students.<br>
-                • Effectively assisted an introductory computer science course, promoting student
-                engagement, and facilitating a supportive learning environment.<br>
-                • Administered feedback to students using positive reinforcement techniques to encourage and build confidence<br>
-                 </p>
-            </div>
-        </div>
 
         <div class="project">
             <h3>10 Week Summer Research, Skidmore College, Dr Aarathi Prasad</h3>
@@ -152,11 +128,28 @@
                     • Last 5 weeks spent brainstorming app ideas, learning React Native, and building and designing the app<br>
                     • Learned React Native, HTML, and JavaScript to design and build a social media app dedicated to young children
                     where they can safely interact with peers while also being educated about the importance of privacy<br>
-                    • Presented at a poster presentation<br>
+                    • Presented at a poster presentation with a demo of the app<br>
                 </p>
                 <div class = "pdf-link-container">
                     <a href="poster2.pdf" target="_blank">Show Poster</a>
                 </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Computer Science Teaching Assistant, Skidmore College, Nelson Dellis</h3>
+            <p>Language: python</p>
+            <p>Fall 2022-Spring 2023</p>
+            <button onclick = "ToggleFunc('LearnMore4')" class = "button">Learn More</button>
+            <div id = "LearnMore4" class = "hidden">
+                <p>(September-December 2023 & January-May 2023)</p>
+                <p>
+                • Assisted lead instructor during Intro to Computer Science(CS106) lab blocks in leading discussions 
+                and providing hands-on programming support to students.<br>
+                • Effectively assisted an introductory computer science course, promoting student
+                engagement, and facilitating a supportive learning environment.<br>
+                • Administered feedback to students using positive reinforcement techniques to encourage and build confidence<br>
+                 </p>
             </div>
         </div>
 
