@@ -76,13 +76,12 @@ nav a:hover{
     color: #2c3e50;
 }
 
+/* Add a media query for screens up to 768px width */
 @media (max-width: 768px) {
-    .nav-toggle {
-        display: block; /* Show on smaller screens */
-    }
+    /* ... Other existing styles ... */
 
     .nav-menu {
-        display: none; /* Hide the menu by default */
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 60px;
@@ -90,16 +89,41 @@ nav a:hover{
         width: 100%;
         background-color: #2c3e50;
         z-index: 999;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Add a shadow for a visual effect */
     }
 
     .nav-menu.active {
-        display: flex; /* Show the menu when active */
+        display: flex;
     }
 
     .nav-menu li {
         margin: 10px 0;
+        text-align: center; /* Center the menu items vertically */
+    }
+
+    /* Style the navigation links for better visibility */
+    .nav-menu a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 0;
+        display: block;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Add hover effect to navigation links */
+    .nav-menu a:hover {
+        background-color: #F2F5F8;
+        color: #2c3e50;
+    }
+
+    /* Center the toggle button */
+    .nav-toggle {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
     }
 }
+
 
 /* Section styles */
 section {
