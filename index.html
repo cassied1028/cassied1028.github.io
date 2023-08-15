@@ -17,13 +17,22 @@
 <body>
     <!-- Navigation Section -->
     <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#awards">Awards</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="nav-container">
+            <div class="nav-header">
+                <div class="nav-toggle" onclick="toggleNav()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
     <!-- Header Section -->
@@ -267,6 +276,11 @@
             } else {
                 x.style.display = "block";
             }
+        }
+
+        function toggleNav() {
+            var navMenu = document.getElementById("navMenu");
+            navMenu.classList.toggle("active");
         }
     </script>
     
