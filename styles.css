@@ -187,6 +187,14 @@ section p {
 
 .button:hover {opacity: 1}
 
+.centered-image {
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+    width: 50%; /* Adjust to desired size, e.g., 50% of its container */
+    max-width: 300px; /* Sets a maximum width to prevent it from becoming too large */
+}
+
+
 /* Footer styles */
 footer {
     /* background: #333; */ /* dark gray */
@@ -297,6 +305,11 @@ footer p {
     background-color: #f4f4f4;
     margin-bottom: 20px;
     border-radius: 25px;
+ }
+
+ .award p{
+    margin: 1px 0; 
+    padding: 0;
  }
  
 
