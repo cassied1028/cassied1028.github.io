@@ -3,19 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your Professional Personal Website">
+    <meta name="description" content="Cassie Davidson | QA Engineer, Software Engineer, and Computer Science graduate portfolio.">
     <title>Cassie Davidson</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="icon" href="laptopicon.ico">
-
 </head>
 
-<style>
-    .indented-paragraph {
-        text-indent: 35px; /* Adjust the value as needed */
-    }
-</style>
 <body>
     <!-- Navigation Section -->
     <nav>
@@ -28,10 +22,10 @@
                 </div>
             </div>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#about">About Me</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Experience</a></li>
-                <li><a href="#awards">Awards</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li><a href="#awards">Honors</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -39,187 +33,201 @@
 
     <!-- Header Section -->
     <header>
-        <!-- <div class="logo-container">
-            <img src="thayer.png" alt="Icon 1" class="logo">
-            <img src="skidmore.png" alt="Icon 2" class="logo">
-        </div> -->
-        <div class="header-content"  id="about">
+        <div class="header-content" id="about">
             <h1>Cassie Davidson</h1>
-            <h2>Skidmore College Alumna | Former Student-Athlete</h2>
-            <p>BA in Computer Science, Biology Minor</p>
+            <h2>QA Engineer | Software Engineer | Computer Science Graduate</h2>
+            <p>B.A. in Computer Science, Biology Minor, Skidmore College</p>
+
+            <div class="hero-links">
+                <a href="CassieDavidsonResume.pdf" target="_blank">Resume</a>
+                <a href="https://github.com/cassied1028" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/cassandra-davidson1028" target="_blank">LinkedIn</a>
+                <a href="mailto:cassied1028@gmail.com">Email</a>
+            </div>
         </div>
     </header>
 
-    <!-- About Me Section -->
+    <!-- About Section -->
     <section>
-        <!-- <h2>About Me</h2> -->
-        <p class="about-p">Hello, I'm Cassie! I am from <span>Easton, MA</span>. I received my <span>Bachelor of Arts degree in Computer Science</span> with a Biology minor in May 2025
-            at <span>Skidmore College</span> while also being a key player on the women's basketball team for four years. My interest of programming began during high school, and my passion for it was strong enough to 
-            lead me to further exploration in college. Beyond academics I enjoy running, fishing, pretty sunsets, and training and walking dogs. 
-
-            <br><br>Continue scrolling to learn more about me!
+        <p class="about-p">
+            Hello, I’m Cassie! I’m a computer science graduate with experience in software quality assurance,
+            automated testing, and web application development. During my time at Skidmore College, I combined
+            academics, research, leadership, and four years as a collegiate athlete, which strengthened my problem-solving,
+            communication, and ability to stay disciplined under pressure.
         </p>
-   
-        <!-- <h3>Gallery</h3> -->
+
+        <p class="about-p">
+            I’m especially interested in QA engineering, software development, and roles where I can contribute to building
+            reliable, user-focused technology. Outside of tech, I enjoy running, working with animals, and creative projects.
+        </p>
+
+        <h3 class="looking-for">What I’m Looking For</h3>
+        <p class="looking-for">
+            I’m currently seeking entry-level opportunities in QA engineering, software testing, software development,
+            and related technical roles where I can continue building my skills in automation, debugging, and collaborative product development.
+        </p>
+
         <div class="image-scroll-container">
             <div class="image-scroll-content">
-                
-                <div class ="image-container">
-                    <img src="poster3.JPEG" alt="gallery 1" class = "image" loading="lazy">
-                    <div class = "overlay">
-                        <div class = "galleryText">2023 Faculty Student Summer Research Presentation</div>
+                <div class="image-container">
+                    <img src="poster3.JPEG" alt="Faculty-student summer research presentation" class="image" loading="lazy">
+                    <div class="overlay">
+                        <div class="galleryText">2023 Faculty-Student Summer Research Presentation</div>
                     </div>
                 </div>
 
-                <div class ="image-container">
-                    <img src="image1.JPEG" alt="gallery 2" class = "image" loading="lazy">
-                    <div class = "overlay">
-                        <div class = "galleryText">On the court</div>
+                <div class="image-container">
+                    <img src="image1.JPEG" alt="Cassie playing basketball" class="image" loading="lazy">
+                    <div class="overlay">
+                        <div class="galleryText">On the court</div>
                     </div>
                 </div>
 
-                <div class ="image-container">
-                    <img src="poster1.JPEG" alt="gallery 3" class = "image" loading="lazy">
-                    <div class = "overlay">
-                        <div class = "galleryText">2022 Academic Festival Presentation</div>
+                <div class="image-container">
+                    <img src="poster1.JPEG" alt="Academic festival presentation" class="image" loading="lazy">
+                    <div class="overlay">
+                        <div class="galleryText">2022 Academic Festival Presentation</div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
 
-    <!-- Resume Section -->
-    <section id="resume">
-        <h2>Resume</h2>
-        <div class="resume-link-container">
-            <a href="CassieDavidsonResume.pdf" target="_blank">View Resume</a>
-            <a href="https://github.com/cassied1028" target="_blank">View GitHub</a>
-            <a href="https://linkedin.com/in/cassandra-davidson1028" target="_blank">View LinkedIn</a>
-
-        </div>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <p><strong>Languages:</strong> Python, Java, JavaScript, HTML/CSS, SQL, C++</p>
+        <p><strong>Testing & QA:</strong> Selenium WebDriver, TestNG, JUnit, regression testing, automated testing</p>
+        <p><strong>Tools & Platforms:</strong> Git, Azure DevOps, MySQL, MariaDB, Tomcat, Xcode, Eclipse, Visual Studio</p>
+        <p><strong>Other:</strong> React Native, FastAPI, LaTeX</p>
+        <p><strong>Relevant Coursework:</strong> Algorithms, Data Structures, Databases, Software Engineering, Mobile Computing, Programming Languages</p>
     </section>
 
     <!-- Experience Section -->
     <section id="portfolio">
-        <h2>Experience & Projects</h2>
-        <br>
-        <h3>Languages</h3>
-        <p>Java, Python, C++, Swift, C, HTML, JavaScript, React Native, Basic, Perl</p>
-        <h3>Tools</h3>
-        <p>Git, SQL, Junit, Selenium WebDriver, TestNG, Visual Studio, Eclipse, Xcode, Azure, MariaDB, Tomcat, MySQL,Latex</p>
-        <h3>CS Courses</h3>
-        <p>Algorithms, Computability & Complexity, Computer Organization, Databases, Data Structures, Mobile Computing, Programming Languages, Software Design, Software Engineering</p>
-        <h3>Other Courses</h3>
-        <p>Biostatistics, Calculus I, Endocrinology, Evolution, Linear Algebra, Principals of Chemistry, Sexual Selection<br> <br> </p>
+        <h2>Experience</h2>
+        <p class="section-intro">
+            My background includes QA, software development, academic research, and leadership experiences that reflect both technical ability and strong collaboration skills.
+        </p>
 
-        <!-- Projects & details -->
+        <h2><br>Professional Experience</h2>
+
+        <div class="project">
+            <h3>Development Intern, ConnectPay Payroll Services</h3>
+            <p><strong>Languages:</strong> Java</p>
+            <p>Summer 2024</p>
+            <button onclick="ToggleFunc('LearnMore6')" class="button">Learn More</button>
+            <div id="LearnMore6" class="hidden">
+                <p>(June 2024 - August 2024)</p>
+                <p>
+                    • Developed and executed automated QA test cases using Selenium WebDriver.<br>
+                    • Contributed testing work within a DevOps pipeline to support consistent regression testing.<br>
+                    • Helped improve the reliability of an updated web application by identifying, documenting, and communicating defects.<br>
+                </p>
+                <div class="image-container single-image">
+                    <img src="cpps.png" alt="ConnectPay Payroll Services" class="centered-image">
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Computer Science Peer Academic Coach Captain, Skidmore College</h3>
+            <p><strong>Languages:</strong> Python, Java</p>
+            <p>Fall 2022 - Spring 2025</p>
+            <button onclick="ToggleFunc('LearnMore5')" class="button">Learn More</button>
+            <div id="LearnMore5" class="hidden">
+                <p>(September 2022 - May 2025)</p>
+                <p>
+                    • Led and organized meetings with other Computer Science Peer Academic Coaches.<br>
+                    • Participated in training to strengthen tutoring practices and student support strategies.<br>
+                    • Worked with students across multiple course levels to build understanding of computer science concepts.<br>
+                    • Encouraged student growth and confidence through positive reinforcement and feedback.<br>
+                </p>
+                <div class="pdf-link-container">
+                    <a href="https://www.skidmore.edu/academic_services/pac/subject/computer-science.php" target="_blank">Visit PAC Website</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Computer Science Teaching Assistant, Skidmore College</h3>
+            <p><strong>Language:</strong> Python</p>
+            <p>Fall 2022 - Spring 2023</p>
+            <button onclick="ToggleFunc('LearnMore4')" class="button">Learn More</button>
+            <div id="LearnMore4" class="hidden">
+                <p>(September 2022 - May 2023)</p>
+                <p>
+                    • Facilitated collaborative learning for 25 peers in weekly 3-hour lab sessions for an Intro to Computer Science course.<br>
+                    • Provided hands-on assistance and guidance in Python programming.<br>
+                    • Fostered an engaging environment where students felt comfortable asking questions and seeking support.<br>
+                </p>
+            </div>
+        </div>
+
+        <h2><br>Projects & Research</h2>
+
+        <div class="project">
+            <h3>eBay Sold Listings Price Analysis Tool</h3>
+            <p><strong>Technologies:</strong> Python, JavaScript, Puppeteer, FastAPI, HTML/CSS</p>
+            <p>2026</p>
+            <button onclick="ToggleFunc('LearnMore8')" class="button">Learn More</button>
+            <div id="LearnMore8" class="hidden">
+                <p>
+                    • Built a tool to scrape and analyze eBay sold listing data for product pricing research.<br>
+                    • Used Puppeteer to collect listing information and Python/FastAPI to process and display pricing insights such as median and average sold prices.<br>
+                    • Designed the project to support real-world resale decisions and strengthen skills in debugging, automation, and web application development.<br>
+                </p>
+                <div class="pdf-link-container">
+                    <a href="https://github.com/cassied1028/ebay-price-analyzer" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+
         <div class="project">
             <h3>Exploring Canine Sexual Selection: A GRFP Proposal (Unsubmitted)</h3>
             <p>Spring 2025</p>
-            <button onclick = "ToggleFunc('LearnMore7')" class = "button">Learn More</button>
-            <div id = "LearnMore7" class = "hidden">
+            <button onclick="ToggleFunc('LearnMore7')" class="button">Learn More</button>
+            <div id="LearnMore7" class="hidden">
                 <p>(January 2025 - May 2025)</p>
                 <p>
-                •	Completed NSF GRFP–style research proposal as a project for my Sexual Selection class.<br>
-                •	Focuses on canine sexual selection and human influence on mate choice.<br>
-                 </p>
-                <div class = "pdf-link-container">
+                    • Completed an NSF GRFP-style research proposal for a Sexual Selection course project.<br>
+                    • Explored canine sexual selection and the role of human influence on mate choice.<br>
+                </p>
+                <div class="pdf-link-container">
                     <a href="GRFP-Cassie Davidson.pdf" target="_blank">Show Paper</a>
                 </div>
             </div>
         </div>
 
         <div class="project">
-            <h3>Development Intern, ConnectPay Payroll Services</h3>
-            <p>Languages: Java</p>
-            <p>Summer 2024</p>
-            <!-- <a href="#" class="toggle-button">Learn More</a> -->
-            <button onclick = "ToggleFunc('LearnMore6')" class = "button">Learn More</button>
-            <div id = "LearnMore6" class = "hidden">
-               <p>(June-August 2024)</p>
-                <p>
-                    •	Enhanced Selenium WebDriver skills through hands-on development and execution of QA test cases.<br>
-                    •	Developed and executed automated test cases using Selenium WebDriver within a DevOps pipeline.<br>
-                    •	Ensured functionality and integrity of an updated web application.<br>
-                    <div class ="image-container">
-                        <img src="cpps.png" alt="ConnectPay Payroll Services" class="centered-image">
-                    </div>
-                </p>
-            </div>
-        </div>
-       
-        <div class="project">
-            <h3>Computer Science Peer Academic Coach Captain, Skidmore College, Brenda Pashley</h3>
-            <p>Languages:Python, Java</p>
-            <p>Fall 2022-Spring 2025</p>
-            <button onclick = "ToggleFunc('LearnMore5')" class = "button">Learn More</button>
-            <div id = "LearnMore5" class = "hidden">
-                <p>(September 2022 - May 2025)</p>
-                <p>
-                • Lead and organize meetings with the rest of the Computer Science PACs<br>
-                • Participated in training classes to improve tutoring practices and learn new tutoring techniques<br>
-                • Worked with variety of level of students to increase their understanding with computer science concepts<br>
-                • Administered feedback to students using positive reinforcement techniques to encourage and build confidence<br>
-                 </p>
-                <div class="pdf-link-container">
-                    <a href="https://www.skidmore.edu/academic_services/pac/subject/computer-science.php">Visit PAC Website</a>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="project">
-            <h3>10 Week Summer Research, Skidmore College, Dr Aarathi Prasad</h3>
-            <p>Languages: React Native, HTML, JavaScript</p>
+            <h3>10-Week Summer Research, Skidmore College</h3>
+            <p><strong>Languages:</strong> React Native, HTML, JavaScript</p>
             <p>Summer 2023</p>
-            <!-- <a href="#" class="toggle-button">Learn More</a> -->
-            <button onclick = "ToggleFunc('LearnMore3')" class = "button">Learn More</button>
-            <div id = "LearnMore3" class = "hidden">
-               <p>(May-August 2023)</p>
+            <button onclick="ToggleFunc('LearnMore3')" class="button">Learn More</button>
+            <div id="LearnMore3" class="hidden">
+                <p>(May 2023 - August 2023)</p>
                 <p>
-                    • Completed 10 week long collaborative research to learn about children’s understanding of their safety online <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;• First 5 weeks spent researching about children's understanding of online safety and laws put in place to help them 
-                        stay safe<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;• Last 5 weeks spent brainstorming app ideas, learning React Native, and building and designing the app<br>
-                    •	Acquired and applied advanced skills in React Native, HTML, and JavaScript to design and develop a social media application 
-                        aimed at fostering safe online interactions and educating children about privacy.<br>
-                    •	Delivered a poster presentation at the Skidmore summer faculty-student research symposium, showcasing a demo of the app and 
-                        contributed to discussions on enhancing digital safety for children.<br>
-
+                    • Completed a collaborative research project focused on children’s understanding of online safety.<br>
+                    • Researched online safety concepts and relevant laws, then helped brainstorm and build an educational app.<br>
+                    • Applied React Native, HTML, and JavaScript to design a social media app concept promoting safe online interactions and privacy awareness.<br>
+                    • Presented the project at the Skidmore summer faculty-student research symposium.<br>
                 </p>
-                <div class = "pdf-link-container">
+                <div class="pdf-link-container">
                     <a href="poster2.pdf" target="_blank">Show Poster</a>
                 </div>
             </div>
         </div>
 
         <div class="project">
-            <h3>Computer Science Teaching Assistant, Skidmore College, Nelson Dellis</h3>
-            <p>Language: python</p>
-            <p>Fall 2022-Spring 2023</p>
-            <button onclick = "ToggleFunc('LearnMore4')" class = "button">Learn More</button>
-            <div id = "LearnMore4" class = "hidden">
-                <p>(September-December 2023 & January-May 2023)</p>
-                <p>
-                •	Facilitated collaborative learning for 25 peers in weekly 3-hour lab sessions in an Intro to Computer Science class.<br>
-                •	Provided hands-on assistance and guidance in Python.<br>
-                •	Demonstrated strong communication skills and promoted an engaging atmosphere where students felt comfortable seeking assistance.<br>
-                 </p>
-            </div>
-        </div>
-
-        <div class="project">
-            <h3>Semester Research, Skidmore College, Dr Aarathi Prasad</h3>
-            <p>Language: LaTeX</p>
+            <h3>Semester Research, Skidmore College</h3>
+            <p><strong>Language:</strong> LaTeX</p>
             <p>Fall 2022</p>
-            <button onclick = "ToggleFunc('LearnMore2')" class = "button">Learn More</button>
-            <div id = "LearnMore2" class = "hidden">
-                <p>(September-December 2022)</p>
+            <button onclick="ToggleFunc('LearnMore2')" class="button">Learn More</button>
+            <div id="LearnMore2" class="hidden">
+                <p>(September 2022 - December 2022)</p>
                 <p>
-                    •	Completed semester-long research to develop an understanding of opinions regarding genetic testing 
-                        and pros and cons associated with the ability to manipulate the human genome.<br>
-                    •	Read academic articles and conducted a literature review based on findings.<br>
+                    • Completed semester-long research examining perspectives on genetic testing and genome manipulation.<br>
+                    • Read academic literature and developed a literature review based on research findings.<br>
                 </p>
                 <div class="pdf-link-container">
                     <a href="GeneticTestingPaper.pdf" target="_blank">Show Paper</a>
@@ -228,140 +236,109 @@
         </div>
 
         <div class="project">
-            <h3>Computer Science Research Assistant, Skidmore College, Dr Aarathi Prasad</h3>
-            <p>Languages: Python, Swift</p>
+            <h3>Computer Science Research Assistant, Skidmore College</h3>
+            <p><strong>Languages:</strong> Python, Swift</p>
             <p>Spring 2022</p>
-            <button onclick = "ToggleFunc('LearnMore1')" class = "button">Learn More</button>
-            <div id = "LearnMore1" class = "hidden">
-                <p>(March-May 2022)</p>
+            <button onclick="ToggleFunc('LearnMore1')" class="button">Learn More</button>
+            <div id="LearnMore1" class="hidden">
+                <p>(March 2022 - May 2022)</p>
                 <p>
-                    • Assisted in a semester-long research project focused on managing problematic smartphone use and presented 
-                        findings at the Skidmore Academic Festival 2022.<br>
-                    • Conducted a pilot user study using Qualtrics to evaluate effectiveness of our 
-                        methods and summarized results using Python to generate graphs from CSV files.<br>
-                    • Presented a poster presentation based on five participants testing the usage and efficiency of an iPhone app<br>
+                    • Assisted in a research project focused on problematic smartphone use and presented findings at Skidmore Academic Festival 2022.<br>
+                    • Conducted a pilot user study using Qualtrics and summarized results using Python-generated graphs from CSV data.<br>
+                    • Contributed to a poster presentation based on testing the usage and effectiveness of an iPhone app.<br>
                 </p>
-                <div class = "pdf-link-container">
+                <div class="pdf-link-container">
                     <a href="poster1.pdf" target="_blank">Show Poster</a>
                 </div>
             </div>
         </div>
-        <!-- Add more project entries as needed -->
-    
-        <!-- Misc work & experiences-->
-        <h2><br>Other Work & Experiences</h2>
-        
+
+        <h2><br>Leadership & Athletics</h2>
+
         <div class="project">
-            <h3>Skidmore Women's Basketball, Skidmore College, David Bostick</h3>
-            <button onclick = "ToggleFunc('MiscLM1')" class = "button">Learn More</button>
-            <div id = "MiscLM1" class = "hidden">
-                <p>(September 2021 - February 2025)</p>
+            <h3>Skidmore Women’s Basketball, Skidmore College</h3>
+            <p>September 2021 - February 2025</p>
+            <button onclick="ToggleFunc('MiscLM1')" class="button">Learn More</button>
+            <div id="MiscLM1" class="hidden">
                 <p>
-                    • Committed 30 hours a week of training, practicing, watching film, and traveling to games while maintaining a full course load.<br>
-                    • Developed leadership skills and a strong work ethic to meet personal and team goals.<br>
-                    • Improved time-management skills and commuication
-                    • Played a vital role in helping lead the team to win the Liberty League Championship 2023.<br>
-                </p>
-            </div>
-        </div>
-        
-        <div class = "project">
-            <h3>Youth Basketball Coach, Skidmore College, Jessica Turner</h3>
-            <button onclick = "ToggleFunc('MiscLM2')" class = "button">Learn More</button>
-            <div id = "MiscLM2" class = "hidden">
-                <p>(July 2021, 2022, 2023, 2024)</p>
-                <p>
-                    • Designed and conducted daily basketball drills and practice sessions, focusing on skill development, 
-                    teamwork, and sportsmanship for groups of 20+ campers aged 8-14.<br>
-                    • Provided guidance and support to young athletes, fostering a positive and inclusive environment.<br>
-                    • Provided constructive feedback to campers and communicated progress reports to parents, ensuring continuous improvement and goal achievement.<br>
-                </p>
-            </div>
-        </div>
-       
-        
-        <div class = "project">
-            <h3>Camp Counsellor, Thayer Academy, Cathy Turpel</h3>
-            <button onclick = "ToggleFunc('MiscLM3')" class = "button">Learn More</button>
-            <div id = "MiscLM3" class = "hidden">
-                <p>(May 2022 - August 2022)</p>
-                <p>
-                    • Successfully managed various camper groups, adapting quickly to different ages, needs, and personalities while
-                    maintaining a positive and supportive atmosphere.<br>
-                    • Proactively addressed individual camper concerns and emergencies, ensuring a secure and nurturing environment for all participants.
-                    
+                    • Balanced a full course load with 30 hours per week of training, practice, film, and travel.<br>
+                    • Developed leadership, discipline, and time-management skills through collegiate athletics.<br>
+                    • Helped the team win the Liberty League Championship in 2023.<br>
                 </p>
             </div>
         </div>
 
-
+        <div class="project">
+            <h3>Youth Basketball Coach, Skidmore College</h3>
+            <p>July 2021, 2022, 2023, 2024</p>
+            <button onclick="ToggleFunc('MiscLM2')" class="button">Learn More</button>
+            <div id="MiscLM2" class="hidden">
+                <p>
+                    • Designed and led daily basketball drills and practice sessions for groups of 20+ campers ages 8–14.<br>
+                    • Fostered a positive, inclusive environment focused on teamwork, skill development, and sportsmanship.<br>
+                    • Provided feedback to campers and communicated progress to parents.<br>
+                </p>
+            </div>
+        </div>
     </section>
-   
-    <!-- Resume Section -->
+
+    <!-- Honors Section -->
     <section id="awards">
-        <div >
+        <div>
             <h2>Honors & Awards</h2>
 
             <div class="award">
                 <h3>Magna Cum Laude</h3>
                 <p>Skidmore College, May 2025</p>
-                <p>Graduated with high honors, awarded to students who achieve a cumulative GPA of 3.75 to 3.89, 
-                    demonstrating consistent academic excellence throughout their undergraduate career.</p>
+                <p>Graduated with high honors, awarded to students who achieve a cumulative GPA of 3.75 to 3.89, demonstrating consistent academic excellence throughout their undergraduate career.</p>
             </div>
 
             <div class="award">
                 <h3>Dean's List</h3>
                 <p>Skidmore College, Fall 2021, Fall 2022, Spring 2023, Fall 2023, Spring 2024</p>
-                <p>Given to students who satisfactorily complete at least 14 semester hours of credit and 
-                    who achieves a 3.650 GPA for that semester</p>
+                <p>Given to students who satisfactorily complete at least 14 semester hours of credit and achieve a 3.650 GPA for that semester.</p>
             </div>
 
             <div class="award">
                 <h3>Academic All District Basketball Team</h3>
                 <p>NCAA D3 Women's Basketball, February 2023, 2024, 2025</p>
-                <p>Awarded to the nation’s top student-athletes for combined performance on the court and in 
-                    the classroom</p>
+                <p>Awarded to top student-athletes for combined performance on the court and in the classroom.</p>
             </div>
 
             <div class="award">
                 <h3>Thoroughbred Society</h3>
                 <p>Skidmore College Athletics, Fall 2021, Fall 2022, Spring 2023, Fall 2023, Spring 2024</p>
-                <p>The Thoroughbred Society recognizes Skidmore College varsity student-athletes who have
-                     achieved a grade point average of 3.67 or higher the previous semester.</p>
+                <p>The Thoroughbred Society recognizes Skidmore College varsity student-athletes who achieved a grade point average of 3.67 or higher the previous semester.</p>
             </div>
 
             <div class="award">
-                <h3 >Schupf Scholar Program</h3>
+                <h3>Schupf Scholar Program</h3>
                 <p>Skidmore College, May 2023</p>
-                <p>Awarded to female students in science fields where they are underrepresented and who will
-                    complete 10 weeks of summer research</p>
+                <p>Awarded to female students in science fields where they are underrepresented and who complete 10 weeks of summer research.</p>
             </div>
-
 
             <div class="award">
                 <h3>Maureen E. Bucken Girls’ Athletic Award</h3>
                 <p>Thayer Academy, May 2021</p>
-                <p>Given to female athletes who demonstrate selflessness, friendliness, and good sportsmanship</p>
+                <p>Given to female athletes who demonstrate selflessness, friendliness, and good sportsmanship.</p>
             </div>
-           
         </div>
-        <p>Last updated 07/10/2025</p>
+        <p>Last updated March 2026</p>
     </section>
 
     <!-- Footer Section -->
     <footer>
-        <!-- Contact Section -->
-        <section id="contact" >
-            <h3>Reach me through Email or LinkedIn!</h3>
+        <section id="contact">
+            <h3>Reach me through Email or LinkedIn</h3>
             <hr class="divider left-divider">
             <a href="mailto:cassied1028@gmail.com"><i class="fas fa-envelope"></i></a>
-            <a href="https://www.linkedin.com/in/cassandra-davidson1028"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/cassandra-davidson1028" target="_blank"><i class="fab fa-linkedin"></i></a>
             <hr class="divider right-divider">
         </section>
 
-        <p font-size="12em" >&copy; 2023 Cassie Davidson. All rights reserved.</p>
+        <p>&copy; 2026 Cassie Davidson. All rights reserved.</p>
     </footer>
-    
+
     <script>
         function ToggleFunc(id) {
             var x = document.getElementById(id);
@@ -378,6 +355,5 @@
             navMenu.classList.toggle("active");
         }
     </script>
-    
 </body>
 </html>
