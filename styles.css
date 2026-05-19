@@ -1,3 +1,10 @@
+:root {
+    --primary: #2c3e50;
+    --accent: #7aa89c;
+    --light-bg: #f7faf9;
+    --soft-accent-bg: #eef5f3;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +19,7 @@ body {
     font-family: Georgia, serif;
     line-height: 1.6;
     color: #2c3e50;
+    background-color: var(--light-bg);
     padding-top: 70px;
 }
 
@@ -49,17 +57,18 @@ nav a {
 }
 
 nav a:hover {
-    background: #F2F5F8;
-    color: #2c3e50;
+    background: var(--accent);
+    color: #fff;
 }
 
 header {
-    background: #F2F5F8;
+    background: #ffffff;
     padding: 50px 20px 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-bottom: 1px solid #e0e6e3;
 }
 
 .header-content {
@@ -100,7 +109,8 @@ header h2 {
 }
 
 .hero-links a:hover {
-    opacity: 0.9;
+    background-color: var(--accent);
+    opacity: 1;
 }
 
 section {
@@ -132,10 +142,15 @@ section p {
 }
 
 .project {
-    background: #f4f4f4;
+    background: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
+    border: 1px solid #e0e6e3;
+}
+
+.project:hover {
+    box-shadow: 0 6px 18px rgba(44, 62, 80, 0.08);
 }
 
 .project h3 {
@@ -172,7 +187,10 @@ section p {
 }
 
 .button:hover {
+.button:hover {
+    background-color: var(--accent);
     opacity: 1;
+}
 }
 
 .resume-link-container {
@@ -190,6 +208,11 @@ section p {
     border-radius: 6px;
     margin-right: 8px;
     margin-top: 6px;
+}
+
+.resume-link-container a:hover,
+.pdf-link-container a:hover {
+    background-color: var(--accent);
 }
 
 .centered-image {
@@ -244,7 +267,7 @@ section p {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #F2F5F8;
+    background-color: var(--soft-accent-bg);
 }
 
 .image-container:hover .overlay {
@@ -264,9 +287,10 @@ section p {
 
 .award {
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     margin-bottom: 20px;
     border-radius: 20px;
+    border: 1px solid #e0e6e3;
 }
 
 .award p {
@@ -311,7 +335,7 @@ footer p {
 }
 
 #contact a:hover {
-    color: #cfd8df;
+    color: var(--accent);
 }
 
 .hidden {
