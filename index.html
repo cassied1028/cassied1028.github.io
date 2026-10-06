@@ -1,406 +1,719 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cassie Davidson | QA Engineer, Software Engineer, and Computer Science graduate portfolio.">
-    <title>Cassie Davidson</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="icon" href="laptopicon.ico">
-</head>
-
-<body>
-    <!-- Navigation Section -->
-    <nav>
-        <div class="nav-container">
-            <div class="nav-header">
-                <div class="nav-toggle" onclick="toggleNav()">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                </div>
-            </div>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Experience</a></li>
-                <li><a href="#awards">Honors</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Header Section -->
-    <header>
-        <div class="header-content" id="about">
-            <h1>Cassie Davidson</h1>
-            <h2>Technology | Customer Success | Animal Health</h2>
-            <p>B.A. in Computer Science, Biology Minor, Skidmore College</p>
-
-            <div class="hero-links">
-                <a href="https://github.com/cassied1028" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/cassandra-davidson1028" target="_blank">LinkedIn</a>
-                <a href="mailto:cassied1028@gmail.com">Email</a>
-            </div>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section>
-        <p class="about-p">
-            Hello, I’m Cassie! I’m an early-career technology professional with a background in computer
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Cassie Davidson | Computer Science graduate with a Biology minor, interested in technology, customer success, and animal health." name="description"/>
+  <title>
+   Cassie Davidson
+  </title>
+  <link href="styles.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="laptopicon.ico" rel="icon"/>
+ </head>
+ <body>
+  <!-- Navigation Section -->
+  <nav>
+   <div class="nav-container">
+    <div class="nav-header">
+     <button aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation" class="nav-toggle" onclick="toggleNav()" type="button">
+      <div class="bar">
+      </div>
+      <div class="bar">
+      </div>
+      <div class="bar">
+      </div>
+     </button>
+    </div>
+    <ul class="nav-menu" id="navMenu">
+     <li>
+      <a href="#about">
+       About
+      </a>
+     </li>
+     <li>
+      <a href="#skills">
+       Skills
+      </a>
+     </li>
+     <li>
+      <a href="#portfolio">
+       Experience
+      </a>
+     </li>
+     <li>
+      <a href="#awards">
+       Honors
+      </a>
+     </li>
+     <li>
+      <a href="#contact">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <!-- Header Section -->
+  <header>
+   <div class="header-content" id="about">
+    <h1>
+     Cassie Davidson
+    </h1>
+    <h2>
+     Technology | Customer Success | Animal Health
+    </h2>
+    <p>
+     B.A. in Computer Science, Biology Minor, Skidmore College
+    </p>
+    <div class="hero-links">
+     <a href="https://github.com/cassied1028" rel="noopener noreferrer" target="_blank">
+      GitHub
+     </a>
+     <a href="https://linkedin.com/in/cassandra-davidson1028" rel="noopener noreferrer" target="_blank">
+      LinkedIn
+     </a>
+     <a href="mailto:cassied1028@gmail.com">
+      Email
+     </a>
+    </div>
+   </div>
+  </header>
+  <!-- About Section -->
+  <section>
+   <div class="portfolio-about-layout">
+    <div class="portfolio-about-copy">
+     <p class="about-p">
+      Hello, I’m Cassie! I’m an early-career technology professional with a background in computer
              science and biology and experience in technical problem-solving, software testing, customer communication, 
              and web application development. During my time at Skidmore College, I combined academics, research, leadership,
               and four years as a collegiate athlete, which strengthened my problem-solving, communication, and ability to 
               stay disciplined under pressure.
-
-        <p class="about-p">
-            Outside of work, I enjoy spending time with animals, working out, thrifting, and creative projects.
-        </p>
-
-        <h3 class="looking-for">What I’m Looking For</h3>
-        <p class="looking-for">
-           I’m currently seeking early-career opportunities where I can combine my technical 
+     </p>
+     <p class="about-p">
+      Outside of work, I enjoy spending time with animals, working out, thrifting, and creative projects.
+     </p>
+     <h3 class="looking-for">
+      What I’m Looking For
+     </h3>
+     <p class="looking-for">
+      I’m currently seeking early-career opportunities where I can combine my technical 
            background with communication, problem-solving, and working with people. I’m particularly 
            interested in veterinary and animal-health technology, including customer success, implementation, 
            product operations, technical support, and related roles. I’m also open to technical opportunities 
            where I can continue building my skills while contributing to useful, user-focused technology.
-        </p>
-
-        <div class="image-scroll-container">
-            <div class="image-scroll-content">
-                <div class="image-container">
-                    <img src="poster3.JPEG" alt="Faculty-student summer research presentation" class="image" loading="lazy">
-                    <div class="overlay">
-                        <div class="galleryText">2023 Faculty-Student Summer Research Presentation</div>
-                    </div>
-                </div>
-
-                <div class="image-container">
-                    <img src="image1.JPEG" alt="Cassie playing basketball" class="image" loading="lazy">
-                    <div class="overlay">
-                        <div class="galleryText">On the court</div>
-                    </div>
-                </div>
-
-                <div class="image-container">
-                    <img src="poster1.JPEG" alt="Academic festival presentation" class="image" loading="lazy">
-                    <div class="overlay">
-                        <div class="galleryText">2022 Academic Festival Presentation</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <p><strong>Languages:</strong> Python, Java, JavaScript, HTML/CSS, SQL, C++</p>
-        <p><strong>Testing & QA:</strong> Selenium WebDriver, TestNG, JUnit, regression testing, automated testing</p>
-        <p><strong>Tools & Platforms:</strong> Git, Azure DevOps, MySQL, MariaDB, Tomcat, Xcode, Eclipse, Visual Studio</p>
-        <p><strong>Other:</strong> React Native, FastAPI, LaTeX</p>
-        <p><strong>Relevant Coursework:</strong> Algorithms, Data Structures, Databases, Software Engineering, Mobile Computing, Programming Languages</p>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="portfolio">
-
-        <h2><br>Professional Experience</h2>
-
-        <div class="project">
-            <h3>Independent Ecommerce Reseller</h3>
-            <p><strong>Focus:</strong> Ecommerce, Customer Service, Sales & Operations</p>
-            <p>Summer 2025 - Present</p>
-            <button onclick="ToggleFunc('LearnMoreEcommerce')" class="button">Learn More</button>
-            <div id="LearnMoreEcommerce" class="hidden">
-                <p>(August 2025 - Present)</p>
-                <p>
-                    • Run an independent resale business across online marketplaces, managing product sourcing, research, pricing, listings, inventory, and order fulfillment.<br>
-                    • Communicate directly with customers to answer questions, address concerns, resolve issues, and support purchasing decisions.<br>
-                    • Research market demand and comparable sales to make informed pricing and sourcing decisions.<br>
-                    • Manage multiple listings, orders, and customer interactions while maintaining accurate product information and timely fulfillment.<br>
-                </p>
-                <div class="pdf-link-container">
-                    <a href="https://www.ebay.com/str/wickedgoodsfinds" target="_blank" class="button">
-                        View My eBay Store
-                    </a>
-                </div>
-               
-            </div>
-        </div>
-
-        <div class="project">
-            <h3>Development Intern, ConnectPay Payroll Services</h3>
-            <p><strong>Languages:</strong> Java</p>
-            <p>Summer 2024</p>
-            <button onclick="ToggleFunc('LearnMore6')" class="button">Learn More</button>
-            <div id="LearnMore6" class="hidden">
-                <p>(June 2024 - August 2024)</p>
-                <p>
-                    • Developed and executed automated QA test cases using Selenium WebDriver.<br>
-                    • Contributed testing work within a DevOps pipeline to support consistent regression testing.<br>
-                    • Helped improve the reliability of an updated web application by identifying, documenting, and communicating defects.<br>
-                </p>
-                <div class="image-container single-image">
-                    <img src="cpps.png" alt="ConnectPay Payroll Services" class="centered-image">
-                </div>
-            </div>
-        </div>
-
-        <div class="project">
-            <h3>Computer Science Peer Academic Coach Captain, Skidmore College</h3>
-            <p><strong>Languages:</strong> Python, Java</p>
-            <p>Fall 2022 - Spring 2025</p>
-            <button onclick="ToggleFunc('LearnMore5')" class="button">Learn More</button>
-            <div id="LearnMore5" class="hidden">
-                <p>(September 2022 - May 2025)</p>
-                <p>
-                    • Led and organized meetings with other Computer Science Peer Academic Coaches.<br>
-                    • Participated in training to strengthen tutoring practices and student support strategies.<br>
-                    • Worked with students across multiple course levels to build understanding of computer science concepts.<br>
-                    • Encouraged student growth and confidence through positive reinforcement and feedback.<br>
-                </p>
-                <div class="pdf-link-container">
-                    <a href="https://www.skidmore.edu/academic_services/pac/subject/computer-science.php" target="_blank">Visit PAC Website</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="project">
-            <h3>Computer Science Teaching Assistant, Skidmore College</h3>
-            <p><strong>Language:</strong> Python</p>
-            <p>Fall 2022 - Spring 2023</p>
-            <button onclick="ToggleFunc('LearnMore4')" class="button">Learn More</button>
-            <div id="LearnMore4" class="hidden">
-                <p>(September 2022 - May 2023)</p>
-                <p>
-                    • Facilitated collaborative learning for 25 peers in weekly 3-hour lab sessions for an Intro to Computer Science course.<br>
-                    • Provided hands-on assistance and guidance in Python programming.<br>
-                    • Fostered an engaging environment where students felt comfortable asking questions and seeking support.<br>
-                </p>
-            </div>
-        </div>
-
-        <h2><br>Projects & Research</h2>
-
-        <div class="project">
-            <h3>Physical Pomodoro Clock & YouTube Build Series</h3>
-            <p><strong>Technologies:</strong> ESP32, C++, Arduino/PlatformIO, e-paper display, rotary encoder</p>
-            <p>2026</p>
-            <button onclick="ToggleFunc('LearnMore9')" class="button">Learn More</button>
-            <div id="LearnMore9" class="hidden">
-                <p>
-                    I started this project because I wanted to challenge myself to learn electronics from scratch and build
+     </p>
+    </div>
+    <figure class="portfolio-photo portfolio-about-photo">
+     <a aria-label="View full-size photo: Cassie with Sophie the horse" href="Horse.JPEG" rel="noopener noreferrer" target="_blank">
+      <img alt="Cassie with Sophie the horse" decoding="async" loading="lazy" src="Horse.JPEG"/>
+     </a>
+     <figcaption>
+      Me &amp; Sophie
+     </figcaption>
+    </figure>
+   </div>
+  </section>
+  <!-- Skills Section -->
+  <section id="skills">
+   <h2>
+    Technical Skills
+   </h2>
+   <p>
+    <strong>
+     Languages:
+    </strong>
+    Python, Java, JavaScript, HTML/CSS, SQL, C++
+   </p>
+   <p>
+    <strong>
+     Testing &amp; QA:
+    </strong>
+    Selenium WebDriver, TestNG, JUnit, regression testing, automated testing
+   </p>
+   <p>
+    <strong>
+     Tools &amp; Platforms:
+    </strong>
+    Git, Azure DevOps, MySQL, MariaDB, Tomcat, Xcode, Eclipse, Visual Studio
+   </p>
+   <p>
+    <strong>
+     Other:
+    </strong>
+    React Native, FastAPI, LaTeX
+   </p>
+   <p>
+    <strong>
+     Relevant Coursework:
+    </strong>
+    Algorithms, Data Structures, Databases, Software Engineering, Mobile Computing, Programming Languages
+   </p>
+  </section>
+  <!-- Experience Section -->
+  <section id="portfolio">
+   <h2>
+    <br/>
+    Professional Experience
+   </h2>
+   <div class="project">
+    <h3>
+     Independent Ecommerce Reseller
+    </h3>
+    <p>
+     <strong>
+      Focus:
+     </strong>
+     Ecommerce, Customer Service, Sales &amp; Operations
+    </p>
+    <p>
+     Summer 2025 - Present
+    </p>
+    <button aria-controls="LearnMoreEcommerce" aria-expanded="false" class="button" onclick="ToggleFunc('LearnMoreEcommerce')" type="button">
+     Learn More
+    </button>
+    <div class="hidden" id="LearnMoreEcommerce">
+     <p>
+      (August 2025 - Present)
+     </p>
+     <p>
+      • Run an independent resale business across online marketplaces, managing product sourcing, research, pricing, listings, inventory, and order fulfillment.
+      <br/>
+      • Communicate directly with customers to answer questions, address concerns, resolve issues, and support purchasing decisions.
+      <br/>
+      • Research market demand and comparable sales to make informed pricing and sourcing decisions.
+      <br/>
+      • Manage multiple listings, orders, and customer interactions while maintaining accurate product information and timely fulfillment.
+      <br/>
+     </p>
+     <div class="pdf-link-container">
+      <a class="button" href="https://www.ebay.com/str/wickedgoodsfinds" rel="noopener noreferrer" target="_blank">
+       View My eBay Store
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="project">
+    <h3>
+     Development Intern, ConnectPay Payroll Services
+    </h3>
+    <p>
+     <strong>
+      Languages:
+     </strong>
+     Java
+    </p>
+    <p>
+     Summer 2024
+    </p>
+    <button aria-controls="LearnMore6" aria-expanded="false" class="button" onclick="ToggleFunc('LearnMore6')" type="button">
+     Learn More
+    </button>
+    <div class="hidden" id="LearnMore6">
+     <p>
+      (June 2024 - August 2024)
+     </p>
+     <p>
+      • Developed and executed automated QA test cases using Selenium WebDriver.
+      <br/>
+      • Contributed testing work within a DevOps pipeline to support consistent regression testing.
+      <br/>
+      • Helped improve the reliability of an updated web application by identifying, documenting, and communicating defects.
+      <br/>
+     </p>
+     <div class="portfolio-secondary-image">
+      <img alt="ConnectPay Payroll Services logo" class="portfolio-company-logo" loading="lazy" src="cpps.png"/>
+     </div>
+    </div>
+   </div>
+   <div class="project">
+    <h3>
+     Computer Science Peer Academic Coach Captain, Skidmore College
+    </h3>
+    <p>
+     <strong>
+      Languages:
+     </strong>
+     Python, Java
+    </p>
+    <p>
+     Fall 2022 - Spring 2025
+    </p>
+    <button aria-controls="LearnMore5" aria-expanded="false" class="button" onclick="ToggleFunc('LearnMore5')" type="button">
+     Learn More
+    </button>
+    <div class="hidden" id="LearnMore5">
+     <p>
+      (September 2022 - May 2025)
+     </p>
+     <p>
+      • Led and organized meetings with other Computer Science Peer Academic Coaches.
+      <br/>
+      • Participated in training to strengthen tutoring practices and student support strategies.
+      <br/>
+      • Worked with students across multiple course levels to build understanding of computer science concepts.
+      <br/>
+      • Encouraged student growth and confidence through positive reinforcement and feedback.
+      <br/>
+     </p>
+     <div class="pdf-link-container">
+      <a href="https://www.skidmore.edu/academic_services/pac/subject/computer-science.php" rel="noopener noreferrer" target="_blank">
+       Visit PAC Website
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="project">
+    <h3>
+     Computer Science Teaching Assistant, Skidmore College
+    </h3>
+    <p>
+     <strong>
+      Language:
+     </strong>
+     Python
+    </p>
+    <p>
+     Fall 2022 - Spring 2023
+    </p>
+    <button aria-controls="LearnMore4" aria-expanded="false" class="button" onclick="ToggleFunc('LearnMore4')" type="button">
+     Learn More
+    </button>
+    <div class="hidden" id="LearnMore4">
+     <p>
+      (September 2022 - May 2023)
+     </p>
+     <p>
+      • Facilitated collaborative learning for 25 peers in weekly 3-hour lab sessions for an Intro to Computer Science course.
+      <br/>
+      • Provided hands-on assistance and guidance in Python programming.
+      <br/>
+      • Fostered an engaging environment where students felt comfortable asking questions and seeking support.
+      <br/>
+     </p>
+    </div>
+   </div>
+   <h2>
+    <br/>
+    Projects &amp; Research
+   </h2>
+   <div class="project portfolio-visual-project">
+    <div class="portfolio-project-summary">
+     <figure class="portfolio-photo">
+      <a aria-label="View full-size photo: Physical Pomodoro clock built by Cassie" href="PomodoroClock.JPEG" rel="noopener noreferrer" target="_blank">
+       <img alt="Physical Pomodoro clock built by Cassie" decoding="async" loading="lazy" src="PomodoroClock.JPEG"/>
+      </a>
+      <figcaption>
+       My physical Pomodoro clock
+      </figcaption>
+     </figure>
+     <div class="portfolio-project-copy">
+      <h3>
+       Physical Pomodoro Clock &amp; YouTube Build Series
+      </h3>
+      <p>
+       <strong>
+        Technologies:
+       </strong>
+       ESP32, C++, Arduino/PlatformIO, e-paper display, rotary encoder
+      </p>
+      <p>
+       2026
+      </p>
+      <button aria-controls="LearnMore9" aria-expanded="false" class="button" onclick="ToggleFunc('LearnMore9')" type="button">
+       Learn More
+      </button>
+     </div>
+    </div>
+    <div class="hidden" id="LearnMore9">
+     <p>
+      I started this project because I wanted to challenge myself to learn electronics from scratch and build
                      something physical that connected software, hardware, and design. This project helped me cut 
                      down on mindless scrolling and be more intentional with my time. Using the clock now keeps me 
-                     focused while still allowing me to step away and take meaningful breaks. <br><br>
-                    • Built a physical Pomodoro clock from scratch using an ESP32 microcontroller, e-paper display, rotary encoder, and RGB LED status indicator.<br>
-                    • Designed and programmed the clock interface, including selectable work/break timer options, start/pause states, progress display, and visual feedback.<br>
-                    • Worked through real hardware and software challenges such as wiring components, debugging display behavior, managing memory limits, and improving the user interface.<br>
-                    • Documented the build process through a YouTube video series to share my learning process, explain technical decisions, and make the project approachable for others.<br>
-                </p>
-                <div class="image-container single-image">
-                    <img src="cover.png" alt="Clock Img" class="centered-image">
-                </div>
-                <div class="pdf-link-container">
-                    <a href="https://www.youtube.com/@cassiedavidson1028/videos" target="_blank">Watch Build Series</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="project">
-            <h3>eBay Sold Listings Price Analysis Tool</h3>
-            <p><strong>Technologies:</strong> Python, JavaScript, Puppeteer, FastAPI, HTML/CSS</p>
-            <p>2026</p>
-            <button onclick="ToggleFunc('LearnMore8')" class="button">Learn More</button>
-            <div id="LearnMore8" class="hidden">
-                <p>
-                    I built this to use as a practical tool for my small reselling business. I wanted a more practical way to 
+                     focused while still allowing me to step away and take meaningful breaks.
+      <br/>
+      <br/>
+      • Built a physical Pomodoro clock from scratch using an ESP32 microcontroller, e-paper display, rotary encoder, and RGB LED status indicator.
+      <br/>
+      • Designed and programmed the clock interface, including selectable work/break timer options, start/pause states, progress display, and visual feedback.
+      <br/>
+      • Worked through real hardware and software challenges such as wiring components, debugging display behavior, managing memory limits, and improving the user interface.
+      <br/>
+      • Documented the build process through a YouTube video series to share my learning process, explain technical decisions, and make the project approachable for others.
+      <br/>
+     </p>
+     <div class="portfolio-secondary-image">
+      <img alt="Pomodoro clock build-series cover" class="portfolio-build-image" loading="lazy" src="cover.png"/>
+     </div>
+     <div class="pdf-link-container">
+      <a href="https://www.youtube.com/@cassiedavidson1028/videos" rel="noopener noreferrer" target="_blank">
+       Watch Build Series
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="project">
+    <h3>
+     eBay Sold Listings Price Analysis Tool
+    </h3>
+    <p>
+     <strong>
+      Technologies:
+     </strong>
+     Python, JavaScript, Puppeteer, FastAPI, HTML/CSS
+    </p>
+    <p>
+     2026
+    </p>
+    <button aria-controls="LearnMore8" aria-expanded="false" class="button" onclick="ToggleFunc('LearnMore8')" type="button">
+     Learn More
+    </button>
+    <div class="hidden" id="LearnMore8">
+     <p>
+      I built this to use as a practical tool for my small reselling business. I wanted a more practical way to 
                     compare sold listings to current listings instead of guessing from scattered search results. 
-                    This has helped me with pricing when I am posting items on eBay to resell.<br><br>
-                    • Built a tool to scrape and analyze eBay sold listing data for product pricing research.<br>
-                    • Used Puppeteer to collect listing information and Python/FastAPI to process and display pricing insights such as median and average sold prices.<br>
-                    • Designed the project to support real-world resale decisions and strengthen skills in debugging, automation, and web application development.<br>
-                </p>
-                <div class="pdf-link-container">
-                    <a href="https://github.com/cassied1028/ebay-price-analyzer" target="_blank">View Project</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="project">
-            <h3>Exploring Canine Sexual Selection: A GRFP Proposal (Unsubmitted)</h3>
-            <p>Spring 2025</p>
-            <button onclick="ToggleFunc('LearnMore7')" class="button">Learn More</button>
-            <div id="LearnMore7" class="hidden">
-                <p>(January 2025 - May 2025)</p>
-                <p>
-                    • Completed an NSF GRFP-style research proposal for a Sexual Selection course project.<br>
-                    • Explored canine sexual selection and the role of human influence on mate choice.<br>
-                </p>
-                <div class="pdf-link-container">
-                    <a href="GRFP-Cassie Davidson.pdf" target="_blank">Show Paper</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="project">
-            <h3>10-Week Summer Research, Skidmore College</h3>
-            <p><strong>Languages:</strong> React Native, HTML, JavaScript</p>
-            <p>Summer 2023</p>
-            <button onclick="ToggleFunc('LearnMore3')" class="button">Learn More</button>
-            <div id="LearnMore3" class="hidden">
-                <p>(May 2023 - August 2023)</p>
-                <p>
-                    • Completed a collaborative research project focused on children’s understanding of online safety.<br>
-                    • Researched online safety concepts and relevant laws, then helped brainstorm and build an educational app.<br>
-                    • Applied React Native, HTML, and JavaScript to design a social media app concept promoting safe online interactions and privacy awareness.<br>
-                    • Presented the project at the Skidmore summer faculty-student research symposium.<br>
-                </p>
-                <div class="pdf-link-container">
-                    <a href="poster2.pdf" target="_blank">Show Poster</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="project">
-            <h3>Semester Research, Skidmore College</h3>
-            <p><strong>Language:</strong> LaTeX</p>
-            <p>Fall 2022</p>
-            <button onclick="ToggleFunc('LearnMore2')" class="button">Learn More</button>
-            <div id="LearnMore2" class="hidden">
-                <p>(September 2022 - December 2022)</p>
-                <p>
-                    • Completed semester-long research examining perspectives on genetic testing and genome manipulation.<br>
-                    • Read academic literature and developed a literature review based on research findings.<br>
-                </p>
-                <div class="pdf-link-container">
-                    <a href="GeneticTestingPaper.pdf" target="_blank">Show Paper</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="project">
-            <h3>Computer Science Research Assistant, Skidmore College</h3>
-            <p><strong>Languages:</strong> Python, Swift</p>
-            <p>Spring 2022</p>
-            <button onclick="ToggleFunc('LearnMore1')" class="button">Learn More</button>
-            <div id="LearnMore1" class="hidden">
-                <p>(March 2022 - May 2022)</p>
-                <p>
-                    • Assisted in a research project focused on problematic smartphone use and presented findings at Skidmore Academic Festival 2022.<br>
-                    • Conducted a pilot user study using Qualtrics and summarized results using Python-generated graphs from CSV data.<br>
-                    • Contributed to a poster presentation based on testing the usage and effectiveness of an iPhone app.<br>
-                </p>
-                <div class="pdf-link-container">
-                    <a href="poster1.pdf" target="_blank">Show Poster</a>
-                </div>
-            </div>
-        </div>
-
-        <h2><br>Leadership & Athletics</h2>
-
-        <div class="project">
-            <h3>Skidmore Women’s Basketball, Skidmore College</h3>
-            <p>September 2021 - February 2025</p>
-            <button onclick="ToggleFunc('MiscLM1')" class="button">Learn More</button>
-            <div id="MiscLM1" class="hidden">
-                <p>
-                    • Balanced a full course load with 30 hours per week of training, practice, film, and travel.<br>
-                    • Developed leadership, discipline, and time-management skills through collegiate athletics.<br>
-                    • Helped the team win the Liberty League Championship in 2023.<br>
-                </p>
-            </div>
-        </div>
-
-        <div class="project">
-            <h3>Youth Basketball Coach, Skidmore College</h3>
-            <p>July 2021, 2022, 2023, 2024</p>
-            <button onclick="ToggleFunc('MiscLM2')" class="button">Learn More</button>
-            <div id="MiscLM2" class="hidden">
-                <p>
-                    • Designed and led daily basketball drills and practice sessions for groups of 20+ campers ages 8–14.<br>
-                    • Fostered a positive, inclusive environment focused on teamwork, skill development, and sportsmanship.<br>
-                    • Provided feedback to campers and communicated progress to parents.<br>
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Honors Section -->
-    <section id="awards">
-        <div>
-            <h2>Honors & Awards</h2>
-
-            <div class="award">
-                <h3>Magna Cum Laude</h3>
-                <p>Skidmore College, May 2025</p>
-                <p>Graduated with high honors, awarded to students who achieve a cumulative GPA of 3.75 to 3.89, demonstrating consistent academic excellence throughout their undergraduate career.</p>
-            </div>
-
-            <div class="award">
-                <h3>Dean's List</h3>
-                <p>Skidmore College, Fall 2021, Fall 2022, Spring 2023, Fall 2023, Spring 2024</p>
-                <p>Given to students who satisfactorily complete at least 14 semester hours of credit and achieve a 3.650 GPA for that semester.</p>
-            </div>
-
-            <div class="award">
-                <h3>Academic All District Basketball Team</h3>
-                <p>NCAA D3 Women's Basketball, February 2023, 2024, 2025</p>
-                <p>Awarded to top student-athletes for combined performance on the court and in the classroom.</p>
-            </div>
-
-            <div class="award">
-                <h3>Thoroughbred Society</h3>
-                <p>Skidmore College Athletics, Fall 2021, Fall 2022, Spring 2023, Fall 2023, Spring 2024</p>
-                <p>The Thoroughbred Society recognizes Skidmore College varsity student-athletes who achieved a grade point average of 3.67 or higher the previous semester.</p>
-            </div>
-
-            <div class="award">
-                <h3>Schupf Scholar Program</h3>
-                <p>Skidmore College, May 2023</p>
-                <p>Awarded to female students in science fields where they are underrepresented and who complete 10 weeks of summer research.</p>
-            </div>
-
-            <div class="award">
-                <h3>Maureen E. Bucken Girls’ Athletic Award</h3>
-                <p>Thayer Academy, May 2021</p>
-                <p>Given to female athletes who demonstrate selflessness, friendliness, and good sportsmanship.</p>
-            </div>
-        </div>
-        <p>Last updated May 2026</p>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <section id="contact">
-            <h3>Reach me through Email or LinkedIn</h3>
-            <hr class="divider left-divider">
-            <a href="mailto:cassied1028@gmail.com"><i class="fas fa-envelope"></i></a>
-            <a href="https://www.linkedin.com/in/cassandra-davidson1028" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <hr class="divider right-divider">
-        </section>
-
-        <p>&copy; 2026 Cassie Davidson. All rights reserved.</p>
-    </footer>
-
-    <script>
-        function ToggleFunc(id) {
-            var x = document.getElementById(id);
-            console.log(id);
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-        }
-
-        function toggleNav() {
-            var navMenu = document.getElementById("navMenu");
-            navMenu.classList.toggle("active");
-        }
-    </script>
-</body>
+                    This has helped me with pricing when I am posting items on eBay to resell.
+      <br/>
+      <br/>
+      • Built a tool to scrape and analyze eBay sold listing data for product pricing research.
+      <br/>
+      • Used Puppeteer to collect listing information and Python/FastAPI to process and display pricing insights such as median and average sold prices.
+      <br/>
+      • Designed the project to support real-world resale decisions and strengthen skills in debugging, automation, and web application development.
+      <br/>
+     </p>
+     <div class="pdf-link-container">
+      <a href="https://github.com/cassied1028/ebay-price-analyzer" rel="noopener noreferrer" target="_blank">
+       View Project
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="project">
+    <h3>
+     Exploring Canine Sexual Selection: A GRFP Proposal (Unsubmitted)
+    </h3>
+    <p>
+     Spring 2025
+    </p>
+    <button aria-controls="LearnMore7" aria-expanded="false" class="button" onclick="ToggleFunc('LearnMore7')" type="button">
+     Learn More
+    </button>
+    <div class="hidden" id="LearnMore7">
+     <p>
+      (January 2025 - May 2025)
+     </p>
+     <p>
+      • Completed an NSF GRFP-style research proposal for a Sexual Selection course project.
+      <br/>
+      • Explored canine sexual selection and the role of human influence on mate choice.
+      <br/>
+     </p>
+     <div class="pdf-link-container">
+      <a href="GRFP-Cassie Davidson.pdf" rel="noopener noreferrer" target="_blank">
+       Show Paper
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="project portfolio-visual-project">
+    <div class="portfolio-project-summary portfolio-photo-right">
+     <figure class="portfolio-photo">
+      <a aria-label="View full-size photo: Cassie presenting faculty-student summer research" href="poster3.JPEG" rel="noopener noreferrer" target="_blank">
+       <img alt="Cassie presenting faculty-student summer research" decoding="async" loading="lazy" src="poster3.JPEG"/>
+      </a>
+      <figcaption>
+       2023 faculty-student summer research presentation
+      </figcaption>
+     </figure>
+     <div class="portfolio-project-copy">
+      <h3>
+       10-Week Summer Research, Skidmore College
+      </h3>
+      <p>
+       <strong>
+        Languages:
+       </strong>
+       React Native, HTML, JavaScript
+      </p>
+      <p>
+       Summer 2023
+      </p>
+      <button aria-controls="LearnMore3" aria-expanded="false" class="button" onclick="ToggleFunc('LearnMore3')" type="button">
+       Learn More
+      </button>
+     </div>
+    </div>
+    <div class="hidden" id="LearnMore3">
+     <p>
+      (May 2023 - August 2023)
+     </p>
+     <p>
+      • Completed a collaborative research project focused on children’s understanding of online safety.
+      <br/>
+      • Researched online safety concepts and relevant laws, then helped brainstorm and build an educational app.
+      <br/>
+      • Applied React Native, HTML, and JavaScript to design a social media app concept promoting safe online interactions and privacy awareness.
+      <br/>
+      • Presented the project at the Skidmore summer faculty-student research symposium.
+      <br/>
+     </p>
+     <div class="pdf-link-container">
+      <a href="poster2.pdf" rel="noopener noreferrer" target="_blank">
+       Show Poster
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="project">
+    <h3>
+     Semester Research, Skidmore College
+    </h3>
+    <p>
+     <strong>
+      Language:
+     </strong>
+     LaTeX
+    </p>
+    <p>
+     Fall 2022
+    </p>
+    <button aria-controls="LearnMore2" aria-expanded="false" class="button" onclick="ToggleFunc('LearnMore2')" type="button">
+     Learn More
+    </button>
+    <div class="hidden" id="LearnMore2">
+     <p>
+      (September 2022 - December 2022)
+     </p>
+     <p>
+      • Completed semester-long research examining perspectives on genetic testing and genome manipulation.
+      <br/>
+      • Read academic literature and developed a literature review based on research findings.
+      <br/>
+     </p>
+     <div class="pdf-link-container">
+      <a href="GeneticTestingPaper.pdf" rel="noopener noreferrer" target="_blank">
+       Show Paper
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="project portfolio-visual-project">
+    <div class="portfolio-project-summary">
+     <figure class="portfolio-photo">
+      <a aria-label="View full-size photo: Cassie presenting at Skidmore Academic Festival" href="poster1.JPEG" rel="noopener noreferrer" target="_blank">
+       <img alt="Cassie presenting at Skidmore Academic Festival" decoding="async" loading="lazy" src="poster1.JPEG"/>
+      </a>
+      <figcaption>
+       2022 Academic Festival presentation
+      </figcaption>
+     </figure>
+     <div class="portfolio-project-copy">
+      <h3>
+       Computer Science Research Assistant, Skidmore College
+      </h3>
+      <p>
+       <strong>
+        Languages:
+       </strong>
+       Python, Swift
+      </p>
+      <p>
+       Spring 2022
+      </p>
+      <button aria-controls="LearnMore1" aria-expanded="false" class="button" onclick="ToggleFunc('LearnMore1')" type="button">
+       Learn More
+      </button>
+     </div>
+    </div>
+    <div class="hidden" id="LearnMore1">
+     <p>
+      (March 2022 - May 2022)
+     </p>
+     <p>
+      • Assisted in a research project focused on problematic smartphone use and presented findings at Skidmore Academic Festival 2022.
+      <br/>
+      • Conducted a pilot user study using Qualtrics and summarized results using Python-generated graphs from CSV data.
+      <br/>
+      • Contributed to a poster presentation based on testing the usage and effectiveness of an iPhone app.
+      <br/>
+     </p>
+     <div class="pdf-link-container">
+      <a href="poster1.pdf" rel="noopener noreferrer" target="_blank">
+       Show Poster
+      </a>
+     </div>
+    </div>
+   </div>
+   <h2>
+    <br/>
+    Leadership &amp; Athletics
+   </h2>
+   <div class="project portfolio-visual-project">
+    <div class="portfolio-project-summary portfolio-photo-right">
+     <figure class="portfolio-photo">
+      <a aria-label="View full-size photo: Cassie playing basketball for Skidmore" href="image1.JPEG" rel="noopener noreferrer" target="_blank">
+       <img alt="Cassie playing basketball for Skidmore" decoding="async" loading="lazy" src="image1.JPEG"/>
+      </a>
+      <figcaption>
+       On the court with Skidmore
+      </figcaption>
+     </figure>
+     <div class="portfolio-project-copy">
+      <h3>
+       Skidmore Women’s Basketball, Skidmore College
+      </h3>
+      <p>
+       September 2021 - February 2025
+      </p>
+      <button aria-controls="MiscLM1" aria-expanded="false" class="button" onclick="ToggleFunc('MiscLM1')" type="button">
+       Learn More
+      </button>
+     </div>
+    </div>
+    <div class="hidden" id="MiscLM1">
+     <p>
+      • Balanced a full course load with 30 hours per week of training, practice, film, and travel.
+      <br/>
+      • Developed leadership, discipline, and time-management skills through collegiate athletics.
+      <br/>
+      • Helped the team win the Liberty League Championship in 2023.
+      <br/>
+     </p>
+    </div>
+   </div>
+   <div class="project">
+    <h3>
+     Youth Basketball Coach, Skidmore College
+    </h3>
+    <p>
+     July 2021, 2022, 2023, 2024
+    </p>
+    <button aria-controls="MiscLM2" aria-expanded="false" class="button" onclick="ToggleFunc('MiscLM2')" type="button">
+     Learn More
+    </button>
+    <div class="hidden" id="MiscLM2">
+     <p>
+      • Designed and led daily basketball drills and practice sessions for groups of 20+ campers ages 8–14.
+      <br/>
+      • Fostered a positive, inclusive environment focused on teamwork, skill development, and sportsmanship.
+      <br/>
+      • Provided feedback to campers and communicated progress to parents.
+      <br/>
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Honors Section -->
+  <section id="awards">
+   <div>
+    <h2>
+     Honors &amp; Awards
+    </h2>
+    <div class="award">
+     <h3>
+      Magna Cum Laude
+     </h3>
+     <p>
+      Skidmore College, May 2025
+     </p>
+     <p>
+      Graduated with high honors, awarded to students who achieve a cumulative GPA of 3.75 to 3.89, demonstrating consistent academic excellence throughout their undergraduate career.
+     </p>
+    </div>
+    <div class="award">
+     <h3>
+      Dean's List
+     </h3>
+     <p>
+      Skidmore College, Fall 2021, Fall 2022, Spring 2023, Fall 2023, Spring 2024
+     </p>
+     <p>
+      Given to students who satisfactorily complete at least 14 semester hours of credit and achieve a 3.650 GPA for that semester.
+     </p>
+    </div>
+    <div class="award">
+     <h3>
+      Academic All District Basketball Team
+     </h3>
+     <p>
+      NCAA D3 Women's Basketball, February 2023, 2024, 2025
+     </p>
+     <p>
+      Awarded to top student-athletes for combined performance on the court and in the classroom.
+     </p>
+    </div>
+    <div class="award">
+     <h3>
+      Thoroughbred Society
+     </h3>
+     <p>
+      Skidmore College Athletics, Fall 2021, Fall 2022, Spring 2023, Fall 2023, Spring 2024
+     </p>
+     <p>
+      The Thoroughbred Society recognizes Skidmore College varsity student-athletes who achieved a grade point average of 3.67 or higher the previous semester.
+     </p>
+    </div>
+    <div class="award">
+     <h3>
+      Schupf Scholar Program
+     </h3>
+     <p>
+      Skidmore College, May 2023
+     </p>
+     <p>
+      Awarded to female students in science fields where they are underrepresented and who complete 10 weeks of summer research.
+     </p>
+    </div>
+    <div class="award">
+     <h3>
+      Maureen E. Bucken Girls’ Athletic Award
+     </h3>
+     <p>
+      Thayer Academy, May 2021
+     </p>
+     <p>
+      Given to female athletes who demonstrate selflessness, friendliness, and good sportsmanship.
+     </p>
+    </div>
+   </div>
+   <p>
+    Last updated May 2026
+   </p>
+  </section>
+  <!-- Footer Section -->
+  <footer>
+   <section id="contact">
+    <h3>
+     Reach me through Email or LinkedIn
+    </h3>
+    <hr class="divider left-divider"/>
+    <a href="mailto:cassied1028@gmail.com">
+     <i class="fas fa-envelope">
+     </i>
+    </a>
+    <a href="https://www.linkedin.com/in/cassandra-davidson1028" rel="noopener noreferrer" target="_blank">
+     <i class="fab fa-linkedin">
+     </i>
+    </a>
+    <hr class="divider right-divider"/>
+   </section>
+   <p>
+    © 2026 Cassie Davidson. All rights reserved.
+   </p>
+  </footer>
+  <script>
+   function ToggleFunc(id) {
+    const panel = document.getElementById(id);
+    const open = getComputedStyle(panel).display !== "none";
+    panel.style.display = open ? "none" : "block";
+    const button = document.querySelector('[aria-controls="' + id + '"]');
+    if (button) button.setAttribute("aria-expanded", String(!open));
+}
+function toggleNav() {
+    const open = document.getElementById("navMenu").classList.toggle("active");
+    document.querySelector(".nav-toggle").setAttribute("aria-expanded", String(open));
+}
+  </script>
+ </body>
 </html>

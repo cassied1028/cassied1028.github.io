@@ -187,10 +187,8 @@ section p {
 }
 
 .button:hover {
-.button:hover {
     background-color: var(--accent);
     opacity: 1;
-}
 }
 
 .resume-link-container {
@@ -213,76 +211,6 @@ section p {
 .resume-link-container a:hover,
 .pdf-link-container a:hover {
     background-color: var(--accent);
-}
-
-.centered-image {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    max-width: 300px;
-}
-
-.single-image {
-    width: 100%;
-}
-
-.image-scroll-content img {
-    max-height: 400px;
-    width: auto;
-    height: auto;
-    margin-right: 10px;
-}
-
-.image-scroll-container {
-    white-space: nowrap;
-    overflow: auto;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.image-scroll-content {
-    display: flex;
-    white-space: nowrap;
-    width: max-content;
-}
-
-.image-container {
-    position: relative;
-    width: auto;
-}
-
-.image {
-    display: block;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: var(--soft-accent-bg);
-}
-
-.image-container:hover .overlay {
-    opacity: .9;
-}
-
-.galleryText {
-    color: #666;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 80%;
 }
 
 .award {
@@ -394,7 +322,35 @@ footer p {
         width: 60px;
     }
 
-    .centered-image {
-        width: 80%;
-    }
 }
+
+
+   /* Photo layout additions. These can move to styles.css after your existing styles. */
+.portfolio-about-layout { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 2rem; align-items: center; }
+.portfolio-about-copy, .portfolio-project-copy { min-width: 0; }
+.portfolio-photo { margin: 0; min-width: 0; }
+.portfolio-photo a { display: block; border-radius: 10px; overflow: hidden; }
+.portfolio-photo a:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
+.portfolio-photo img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 10px; }
+.portfolio-about-photo img { aspect-ratio: 4 / 5; object-position: center; }
+.portfolio-photo figcaption { margin-top: .5rem; font-size: .85rem; line-height: 1.5; opacity: .8; }
+.project.portfolio-visual-project { display: block; }
+.portfolio-project-summary { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.65fr); gap: 1.75rem; align-items: center; width: 100%; }
+.portfolio-photo-right { grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); }
+.portfolio-photo-right .portfolio-photo { grid-column: 2; grid-row: 1; }
+.portfolio-photo-right .portfolio-project-copy { grid-column: 1; grid-row: 1; }
+.portfolio-visual-project > .hidden { margin-top: 1.25rem; }
+.portfolio-secondary-image { text-align: center; margin: 1.25rem 0; }
+.portfolio-company-logo { display: block; width: min(100%, 260px); height: auto; object-fit: contain; margin: auto; }
+.portfolio-build-image { display: block; width: min(100%, 640px); height: auto; border-radius: 10px; margin: auto; }
+@media (max-width: 720px) {
+  .portfolio-about-layout, .portfolio-project-summary, .portfolio-photo-right { grid-template-columns: minmax(0, 1fr); gap: 1.25rem; }
+  .portfolio-about-photo { width: min(100%, 360px); margin: auto; }
+  .portfolio-photo-right .portfolio-photo, .portfolio-photo-right .portfolio-project-copy { grid-column: auto; grid-row: auto; }
+}
+
+.portfolio-visual-project > .hidden, .project > .hidden { display: none; }
+  
+.nav-toggle { display: none; background: transparent; border: 0; cursor: pointer; padding: 6px; margin-left: auto; }
+.nav-toggle .bar { display: block; width: 25px; height: 3px; margin: 5px 0; background: white; }
+@media (max-width: 768px) { .nav-toggle { display: block; } }
